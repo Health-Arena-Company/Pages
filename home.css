@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Oxygen&display=swap'); 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: oxygen;
+}
+header{
+    background-color: #5b8104;
+    height: 80px;
+    width: 100vw;
+    position: static;
+    display: flex;
+}
+.header-elements{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 40%;
+}
+.logo-image{
+    width: 70px;
+    height: 79px;
+    border-radius: 20px;
+}
+.logo h1 {
+    font-family: Agbalumo;
+    margin-left:10px;
+    font-size: 40px;
+    color: rgb(219, 228, 236);
+   
+}
+.logo h1 span{
+    color: rgb(199, 199, 236);
+}
+header .navigation {
+width: 60%;
+height: 100%;
+
+}
+header .navigation ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    margin: 30px auto;
+    /* border: 1px solid; */
+}
+header .navigation ul li{
+   margin: 0px 25px 25px;
+}
+header .navigation ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.separator {
+    width: 100vw;
+    height: 30px;
+   background-image: linear-gradient(60deg , black 80% , rgb(51, 51, 66) 20%);
+}
